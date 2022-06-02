@@ -1,17 +1,19 @@
-public class Snake{
+package Models;
+
+public class Ladder{
     private int start;
     private int end;
 
-    Snake(int start,int end){
+    public Ladder(int start, int end){
         this.start=start;
         this.end=end;
     }
 
-    int getStart(){
+    public int getStart() {
         return start;
     }
 
-    int getEnd(){
+    public int getEnd() {
         return end;
     }
 }
